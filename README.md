@@ -23,3 +23,5 @@ This would send **13 bytes × 100 = 1,300 bytes (or 1.3 KB)** in total.
 If both the **publisher** and **subscriber** use the same URL `amqp://guest:guest@localhost:5672`, it means they are **connecting to the same RabbitMQ server** running on the local machine (`localhost`), using the same username and password (`guest:guest`), and the default AMQP port (`5672`).
 
 This allows the publisher to send messages to the broker, and the subscriber to receive them from the same broker — they are both working with the **same message system**.
+
+![alt text](image.png)
