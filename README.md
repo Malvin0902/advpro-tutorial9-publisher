@@ -34,3 +34,7 @@ This allows the publisher to send messages to the broker, and the subscriber to 
 ![alt text](image-3.png)
 
 When the publisher runs, it sends five data messages to the RabbitMQ server. Since the subscriber is continuously listening to the server, it captures these messages and displays them based on the specified format.
+
+![alt text](image-4.png)
+
+The monitoring chart displays only two distinct purple spikes and no yellow ones. This signifies that two messages were successfully received and acknowledged by the consumer, indicating that the subscriber processed two messages. The lack of yellow spikes implies that either the message publishing activity was very low or it wasn’t recorded within the timeframe shown on the chart.
