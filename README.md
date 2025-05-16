@@ -24,4 +24,13 @@ If both the **publisher** and **subscriber** use the same URL `amqp://guest:gues
 
 This allows the publisher to send messages to the broker, and the subscriber to receive them from the same broker — they are both working with the **same message system**.
 
+### Screenshot of my running RabbitMQ
 ![alt text](image.png)
+
+
+### Screenshot of sending and processing events
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+When the publisher runs, it sends five data messages to the RabbitMQ server. Since the subscriber is continuously listening to the server, it captures these messages and displays them based on the specified format.
